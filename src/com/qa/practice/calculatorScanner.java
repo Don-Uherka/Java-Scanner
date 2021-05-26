@@ -42,6 +42,8 @@ public class calculatorScanner {
 		    		add(num7, num8);
 		    	} catch (Exception e) {
 		    		e.printStackTrace();
+		    	} finally {
+		    		scan.close();
 		    	}
 		    	System.out.println(div(num7, num8));
 		    	
