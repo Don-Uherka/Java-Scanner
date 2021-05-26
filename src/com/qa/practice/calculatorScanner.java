@@ -38,6 +38,11 @@ public class calculatorScanner {
 		    case "Divide":
 		    	int num7 = scan.nextInt();
 		    	int num8 = scan.nextInt();
+		    	try {
+		    		add(num7, num8);
+		    	} catch (Exception e) {
+		    		e.printStackTrace();
+		    	}
 		    	System.out.println(div(num7, num8));
 		    	
 			
